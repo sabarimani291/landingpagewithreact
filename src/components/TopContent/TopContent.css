@@ -1,0 +1,57 @@
+.topContent{
+    color: white;
+    position: relative;
+}
+.topContent_container{
+    position: absolute;
+    top:310px;
+    right: 100px;
+
+}
+.topContent_container > p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 5px;
+
+}
+.topContent_container >a>button {
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    outline: none;
+}
+.topContent_container > h1 {
+    font-size: 35px;
+}
+.topContent_signinbutton {
+    color: white;
+    background-color: orangered !important;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 300;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.topContent_signinbutton:hover{
+    color: orangered;
+    background-color: white !important;
+    font-weight: 600;
+}
+.topContent_loginbutton {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.topContent_loginbutton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+}
